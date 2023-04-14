@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(230, 5, 155);
+}
+
+main {
+    background-color: chocolate;
+}
+nav {
+    background-color: darkorchid;
+}
+
+ul {
+    background-color: mediumseagreen;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:  blue;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 25%;
+    height: 25%;
+
+}
+
+li a:hover {
+    background-color:blueviolet
+}
+
