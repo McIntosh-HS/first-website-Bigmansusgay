@@ -7,6 +7,8 @@ main {
 }
 nav {
     background-color: darkorchid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -22,11 +24,16 @@ li {
     float: left;
 }
 
+li a:hover {
+    background-color:blueviolet
+}
+
+
 li a {
     display: block;
     color:  blue;
     text-align: justify;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
 
@@ -35,9 +42,5 @@ img {
     width: 25%;
     height: 25%;
 
-}
-
-li a:hover {
-    background-color:blueviolet
 }
 
